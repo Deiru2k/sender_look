@@ -11,5 +11,5 @@ app.use(dbMiddleware);
 app.use(routes);
 
 app.listen(8080, () => {
-  console.log('Ready and listening at :8080');
+  console.log('Server ready, visit http://localhost:8080');
 });
